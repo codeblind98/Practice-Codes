@@ -63,7 +63,7 @@ int main(int argc,char *argv){
     
     int i;
     printf("S.No.\t\tSymbol\tToken\tcount\n");
-    for(i=0;i<10;i++){
+    for(i=0;i<=current_index;i++){
       printf("%d\t%s\t%s\t%d\n",table[i].srNum,table[i].lexeme,table[i].token,table[i]count);
      }
 }
